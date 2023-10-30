@@ -1,0 +1,461 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dela+Gothic+One&family=Martian+Mono:wght@300&display=swap'); /*imports font style: Dela Gothic One*/
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Lexend+Exa&display=swap'); /*imports font style: Lexend Exa*/
+*{
+    margin: 0%; /*sets margin to all elements to 0*/
+    color: #000000; /*Sets the font color of all texts to #000000*/
+    text-decoration: none; /*Removes text decorations such as underlines to texts such as links*/
+}
+body{
+    margin: 0%; /*sets margin of the body to 0*/
+    background-image: url(images/backgroundimage.jpg); /*sets the background of the body of each page to a picture*/
+    background-repeat: no-repeat; /*makes it so that the background image doesn't repeat if it doesn't fill the space*/
+    background-attachment: fixed; /*makes it so that the background doesn't move when you scroll*/
+    background-size: 100% 100%; /*resizes the background image*/
+    object-fit: cover; /*sets the image to fill the space*/
+}
+.topbar{
+    border: 1px solid black; /*displays a border around an element*/
+    background-color: #040721; /*sets the background color of an element*/
+    height: 12vh; /*sets the height of an element*/
+    width: 100vw; /*sets the width of an element*/
+    position: fixed; /*fixes the position of an element on the screen; prevents the element from moving when scrolling*/
+}
+.logo{
+    display: inline-block; /*makes it so that an element falls into a single line with another element*/
+    border-radius: 50%; /*curves the border or edge of an element*/
+    margin: 1vw; /*sets the margin of an element*/
+   
+}
+.logoimage{
+    border-radius: 50%; /*curves the border or edge of an element*/
+    width: 8vh; /*sets the width of an element*/
+    aspect-ratio: 1/1; /*sets the height and width of an element into a ratio*/
+}
+.pagename{
+    display: inline-block; /*makes it so that an element falls into a single line with another element*/
+    width: 92vw; /*sets the width of an element*/
+    margin-top: 0vh; /*pushes other elements upward*/
+}
+.menubar{
+    height: 10vh; /*sets the height of the element*/
+    width: 50vw; /*sets the width of the element*/
+    border-radius: 50%; /*curves the border or edge of the element*/
+    background-color: #989898; /*sets the background color of the element*/
+    margin-top: 17vh; /*pushes other elements upward*/
+    margin-left: 25vw; /*pushes other elements leftward*/
+    position: fixed; /*fixes the position of the element on the screen; prevents movement when scrolling*/
+}
+.introductionlink{
+    height: 30vh; /*sets the height of the element*/
+    width: 40vw; /*sets the width of the element*/
+    padding-top: 5%; /*moves elements within the element inward (down)*/
+    background-color: #AAA9A9; /*sets the background color of the element*/
+    margin-top: 33vh; /*pushes other elements upward*/
+    margin-left: 30vw; /*pushes other elements leftward*/
+    position: fixed; /*fixes the position of the element on the screen; prevents movement when scrolling*/
+}
+.footer{
+    width: 100vw; /*sets the width of the element*/
+    background-color: #040721; /*sets the background color of the element*/
+    margin-top: 88vh; /*pushes other elements upward*/
+    height: 12vh; /*sets the height of the element*/
+    position: fixed; /*fixes the position of the element on the screen; prevents movement when scrolling*/
+}
+.buttonicons{
+    display: inline-block; /*makes it so that an element falls into a single line with another element*/
+    background-color: #0057FF; /*sets the background color of the element*/
+    width: 5vw; /*sets the width of the element*/
+    aspect-ratio: 1/1; /*sets the width and height of an element into a ratio*/
+    margin-left: 2.2vw; /*pushes other elements leftward*/
+    margin-right: 2.3vw; /*pushes other elements rightward*/
+    border-radius: 50%; /*curves the edge or border of an element*/
+    opacity: 60%; /*turns the element transparent*/
+}
+.copyright{
+    float: left; /*moves the position of the element leftward*/
+}
+.bigcircle{
+    display: inline-block; /*makes it so that an element falls into a single line with another element*/
+    background-color: #0057FF; /*sets the background color of the element*/
+    width: 9.5vw; /*sets the width of the element*/
+    aspect-ratio: 1/1; /*sets the width and height of an element into a ratio*/
+    border-radius: 50%; /*curves the edge of the element*/
+    margin-top: 80vh; /*pushes other elements upward*/
+    margin-left: 90vw; /*pushes other elements leftward*/
+    position: fixed; /*fixes the position of the element on the screen;prevents movement when scrolling*/
+    padding-top: 2%; /*moves elements inside downward*/
+    padding-left: 2%; /*moves elements insde rightward*/
+}
+.smallcircle{
+    width: 5vw; /*sets the width of the element*/
+    aspect-ratio: 1/1; /*sets the width and height of an element into a ratio*/
+    background-color: #0041BF; /*sets the background color of the element*/
+    border-radius: 50%; /*curves the edge of an element*/
+    padding: 1%; /*moves inside elements towards the center*/
+}
+.abtUslinkpic{
+    width: 2vw; /*sets the width of an element*/
+    aspect-ratio: 1/1.3; /*sets the width and height of an element into a ratio*/
+    margin-right: 30%; /*pushes other elements rightward*/
+    margin-left: 30%; /*pushes other elements leftward*/
+    margin-top: 20%; /*pushes other elements upward*/
+}
+.buttonpics{
+    width: 3.2vw; /*sets the width of the element*/
+    aspect-ratio: 1/1; /*sets the width and height of an element into a ratio*/
+    margin: 18%; /*pushes other elements outward*/
+}
+.menubar2{
+    margin-left: 95vw; /*pushes other elements lefward*/
+    width: 5vw; /*sets the width of an element*/
+    height: 100vh; /*sets the height of an element*/
+    background-color: #3E3838; /*sets the background color of an element*/
+    position: fixed; /*fixes the position of the element on the screen;prevents movement when scrolling*/
+}
+.buttonicons2{
+    width: 4vw; /*sets the width of an element*/
+    aspect-ratio: 1/1; /*sets the width and height of an element into a ratio*/
+    background-color: #0057FF; /*sets the background color of the element*/
+    margin-left: -2vw; /*pushes other elemets leftward*/
+    margin-top: 2vh; /*pushes other elements upward*/
+    border-radius: 50%; /*curves the edges or border of the element*/
+}
+.topbar2{
+    border: 1px solid black; /*displays a border around an element*/
+    background-color: #040721; /*sets the background color of an element*/
+    height: 12vh; /*sets the height of an element*/
+    width: 100vw; /*sets the width of and element*/
+    margin-left: -95vw; /*pushes other elements leftward*/
+}
+.footer2{
+    width: 100vw; /*sets the width of the element*/
+    background-color: #040721; /*sets the background color of the element*/
+    height: 12vh; /*sets the height of an element*/
+    margin-top: 88vh; /*pushes other elements upward*/
+    display: inline-block; /*makes it so that an element falls into a single line with another*/
+    position: fixed; /*fixes the position of an element on the screen;prevents movement when scorlling*/
+    
+}
+.buttonpics2{
+    width: 2.5vw; /*sets the width of the element*/
+    aspect-ratio: 1/1; /*sets the width and height of an element into a ratio*/
+    margin: 20%; /*pushes other elements outward*/
+}
+.referencesblock{
+    background-color: #AAA9A9; /*sets the background color of an element*/
+    height: 40vh; /*sets the height of an element*/
+    width: 65vw; /*sets the width of an element*/
+    margin-top: 20vh; /*pushes other elements upward*/
+    margin-left: 10vw; /*pushes other elements leftward*/
+    padding: 6%; /*pushes elements inside towards the center*/
+    padding-bottom: 10%; /*pushes elements inside upward*/
+    display: inline-block; /*makes it so that an element fall into a single line with another element*/
+    margin-bottom: 30vh; /*pushes other elements downward*/
+}
+.authordiv{
+    margin-top: 20vh; /*pushes other elements upward*/
+    margin-left: 8vw; /*pushes other elements leftward*/
+    margin-bottom: 40vh; /*pushes other downward*/
+    float: left; /*positions the element leftward*/
+}
+.picauthor{
+    width: 20vw; /*sets the width of an element*/
+    aspect-ratio: 1/1; /*sets the width and height of an element into a ratio*/
+}
+li{
+    text-align: center; /*aligns the text into the center of the block*/
+    font-family: 'Lexend Exa', sans-serif; /*sets the font style of an element*/
+    font-size: 1vw; /*sets the font size of an element*/
+    color: #000000; /*sets the text color of an element*/
+}
+h1{
+    font-family: 'Dela Gothic One', sans-serif; /*sets the font style of an element*/
+    color: #ffffff; /*sets the text color of an element*/
+    text-align: center; /*aligns the text into the center of the block*/
+    font-size: 3vw; /*sets the font size of an element*/
+}
+.copyright{
+    margin: 0.5%; /*pushes other elements outward*/
+    font-family: 'Lexend Exa', sans-serif; /*sets the font style of the element*/
+    color: #ffffff; /*sets the text color of an element*/
+    font-size: 1vw; /*sets the font size of an element*/
+}
+h2{
+    font-family: 'Lexend Exa', sans-serif; /*sets the font style of an element*/
+    color: #000000; /*sets the text color of an element*/
+    text-align: center; /*aligns the text into the center of the block*/
+    font-size: 2vw; /*sets the font size of an element*/
+}
+.cv{
+    width: 20vw; /*sets the width of an element*/
+    height: 80vh; /*sets the height of an element*/
+}
+.education{
+    background-color: #AAA9A9; /*sets the background color of an element*/
+}
+.cvhead{
+    background-color: #AAA9A9; /*sets the background color of an element*/
+}
+.buttonicons:hover{
+    opacity: 100%; /*turns the transparency of the element up or down*/
+    transition: .4s; /*sets the time duration of change an element undergoes*/
+}
+.socialspics{
+    width: 2vw; /*sets the width of an element*/
+    aspect-ratio: 1/1; /*sets the width and height of an element into a ratio*/
+    margin-top: 1vh; /*pushes other elements upward*/
+    margin-left: 0.5vw; /*pushes other elements leftward*/
+    
+}
+.socialsicons{
+    background-color: #3E3838; /*sets the background color of an element*/
+    width: 3vw; /*sets the width of an element*/
+    aspect-ratio: 1/1; /*sets the width and height of an element into a ratio*/
+    border-radius: 50%; /*curves the edge or border of the element*/
+    float: left; /*positions the element leftward*/
+    margin-top: 2vh; /*pushes other elements upward*/
+    margin-left: 1vw; /*pushes ofther elements leftward*/
+    margin-right: 0.5vw; /*pushes other elements rightward*/
+}
+.buttonicons2:hover{
+    transition: 0.5s; /*sets the time duration of change an element undergoes*/
+    width: 6vw; /*sets the width of an element*/
+    margin-left: -5vw; /*pushes other elements leftward*/
+    padding-left: 30%; /*pushes inside elements rightward*/
+    padding-top: 30%; /*pushes inside elements downward*/
+}
+.cvjelly{
+    font-family: 'Lexend Exa', sans-serif; /*sets the font style of an element*/
+    color: #000000; /*sets the text color of an element*/
+    background-color: #AAA9A9; /*sets the background color of an element*/
+    word-break: break-all; /*breaks a word when it surpasses the width of the element*/
+    font-size: 1vw; /*sets the font size of the element*/
+}
+.bigcircle:hover{
+    width: 15vw; /*sets the width of an element*/
+    margin-top: 70vh; /*pushes other elements upward*/
+    margin-left: 85vw; /*pushes other elements leftward*/
+    padding-top: 4%; /*pushes inside elements downward*/
+    padding-left: 4%; /*pushes inside elements rightward*/
+    transition: 0.5s; /*sets the time duration of the change an element undergoes*/
+}
+.context{
+    display: inline-block; /*makes it so that an element falls into a single line with another*/
+    margin-top: 20vh; /*pushes other elements upward*/
+}
+.contextjelly{
+    float: left; /*positions the element lefwards*/
+    width: 40vw; /*sets the width of an element*/
+    height: 20vh; /*set the height of an element*/
+    margin-left: 5vw; /*pushes other elements leftward*/
+}
+.contextpic{
+    float: left; /*positions the element leftward*/
+    width: 38vw; /*sets the width of an element*/
+    aspect-ratio: 2/1; /*sets the width and height of an element into a ratio*/
+    margin-left: 5vw; /*pushes other elements leftward*/
+}
+.supPic{
+    width: 38vw; /*sets the width of an elememt*/
+    aspect-ratio: 2/1; /*sets the width and height of an element into a ratio*/
+}
+.goal{
+    float: left; /*positions the element leftwards*/
+    margin-top: 5vh; /*pushes other elements upwards*/
+    margin-bottom: 40vh; /*pushes other elements downward*/
+    margin-left: 5vw; /*pushes other elements leftward*/
+    width: 60vw; /*sets the width of an element*/
+    height: 20vh; /*sets the height of an element*/
+}
+.statistic{
+    display: inline-block; /*makes it so that an element falls into a single line with another*/
+    margin-top: 20vh; /*pushes other elements upward*/
+    margin-bottom: 30vh; /*pushes other elements downward*/
+}
+.statjelly{
+    float: left; /*positions the element leftward*/
+    height: 20vh; /*sets the height of an element*/
+    width: 20vw; /*sets the width of an element*/
+    margin-left: 5vw; /*pushes other elements leftward*/
+}
+.statpic{
+    float: left; /*positions the element leftward*/
+    width: 25vw; /*sets the width of an element*/
+    margin-left: 5vw; /*pushes other elements leftward*/
+}
+.statistic2{
+    display: inline-block; /*makes it so that an element falls into a single line with another*/
+    margin-bottom: 30vh; /*pushes other elements downward*/
+}
+.statistic3{
+    display: inline-block; /*makes it so that an element falls into a single line with another*/
+    margin-bottom: 60vh; /*pushes other elements downward*/
+}
+.sPic{
+    width: 25vw; /*sets the width of an element*/
+    aspect-ratio: 3/2; /*sets the width and height of an element into a ratio*/
+}
+.conclusiondiv{
+    display: inline-block; /*makes it so that an element falls into a single line with another*/
+    margin-top: 20vh; /*pushes other elements upward*/
+    margin-bottom: 40vh; /*pushes other elemets downward*/
+}
+.concjelly{
+    float: left; /*positions the element leftwards*/
+    width: 40vw; /*sets the width of an element*/
+    height: 100vh; /*sets the height of an element*/
+    background-color: #AAA9A9; /*sets the background color of an element*/
+    margin-left: 10vw; /*pushes other elements leftward*/
+}
+.concpic{
+    float: left; /*positions the element leftward*/
+    width: 30vw; /*sets the width of an element*/
+    aspect-ratio: 1/1; /*sets the width and height of an element into a ratio*/
+    margin-left: 5vw; /*pushes other elements leftward*/
+}
+.cPic{
+    width: 30vw; /*sets the width of an element*/
+    aspect-ratio: 1/1; /*sets the width and height of an element into a ratio*/
+}
+.text{
+    text-align: center; /*aligns the text into the center of the block*/
+    font-family: 'Lexend Exa', sans-serif; /*sets the font style of the element*/
+    background-color: #AAA9A9; /*sets the background color of the element*/
+    font-size: 1vw; /*sets the font size of the element*/
+}
+h2{
+    background: #AAA9A9; /*sets the background color of the element*/
+}
+.supPic:hover{
+    width: 42vw; /*sets the width of an element*/
+    aspect-ratio: 2/1; /*sets the width and height of an element into a ratio*/
+    transition: 0.5s; /*sets the time duration of a change that an element undergoes*/
+}
+.contextpic:hover{
+    margin-left: 2vw;  /*pushes the element leftward*/
+    transition: 0.5s; /*sets the time duration of change that an element undergoes*/
+}
+.quantiStatpic{
+    float: left; /*positions the element leftward*/
+    width: 20vw; /*sets the width of the element*/
+    aspect-ratio: 3/2; /*sets the width and height of an element into a ratio*/
+    margin-left: 5vw; /*pushes other elements leftward*/
+    margin-top: 5vh; /*pushes other elements upward*/
+}
+.discriptivesAndBoxplot{
+    margin-top: 50vh; /*pushes other elements upward*/
+}
+.quantisPic{
+    width: 40vw; /*sets the witdth of an element*/
+    aspect-ratio: 3/2; /*sets the width and height of an element into a ratio*/
+}
+.histogram{
+    width: 50vw; /*sets the width of an element*/
+    aspect-ratio: 2/.8; /*sets the width and height of an element into a ratio*/
+}
+.descriptive{
+    width: 20vw; /*sets the width of an element*/
+    aspect-ratio: 1/1.5; /*sets the width and height of an element into a ratio*/
+}
+.boxplot{
+    width: 30vw; /*sets the width of an element*/
+    aspect-ratio: 2/2; /*sets the width and height of an element into a ratio*/
+}
+.histodiv{
+    float: left; /*positions the element leftward*/
+    width: 50vw; /*sets the width of an element*/
+    aspect-ratio: 5/2; /*sets the width and height of an element into a ratio*/
+    margin-left: 5vw; /*pushes other elements leftward*/
+    margin-right: 5vw; /*pushes other elements rightward*/
+}
+.boxPdiv{
+    float: right; /*positions the element rightward*/
+    width: 30vw; /*sets the width of an element*/
+    aspect-ratio: 3/2; /*sets the width and height of an element into a ratio*/
+    margin-left: 5vw; /*pushes other elements leftward*/
+    margin-top: 5vh; /*pushes other elements upward*/
+}
+.quantiheader{
+    margin-left: 5vw; /*pushes other elements leftward*/
+    margin-bottom: 5vh; /*pushes other elements downward*/
+    width: 75vw; /*sets the width of an element*/
+}
+.histodiv2{
+    float: left; /*positions the element leftward*/
+    width: 50vw; /*sets the width of an element*/
+    aspect-ratio: 5/2; /*sets the width and height of an element into a ratio*/
+    margin-left: 5vw; /*pushes other elements leftward*/
+    margin-right: 5vw; /*pushes other elements downward*/
+}
+.datapoints{
+    float: left; /*positions the element leftward*/
+    margin-top: 5vh; /*pushes other elements upward*/
+    margin-bottom: 40vh; /*pushes other elements downward*/
+    margin-left: 5vw; /*pushes other elements leftward*/
+    width: 18vw; /*sets the width of an element*/
+    height: 20vh; /*sets the height of an element*/
+    background-color: #AAA9A9; /*sets the background color of an element*/
+}
+.dataimage{
+    width: 8vw; /*sets the width of an element*/
+    margin-left: 5vw; /*pushes other elements leftward*/
+}
+.tableimage{
+    background-color: #AAA9A9; /*sets the background color of an element*/
+}
+.qualiiheader{
+    margin-left: 5vw; /*pushes other elements leftward*/
+    margin-bottom: 5vh; /*pushes other elements downward*/
+    width: 80vw; /*sets the width of an element*/
+}
+.qualiiheader2{
+    margin-left: 5vw; /*pushes other elements leftward*/
+    margin-bottom: 5vh; /*pushes other elements downward*/
+    width: 50vw; /*sets the width of an element*/
+}
+.orderedlist{
+    background-color: #AAA9A9; /*sets the background color of an element*/
+}
+.goallist{
+    text-align: left; /*aligns the text into the left side of the block*/
+}
+.analysis{
+    width: 75vw; /*sets the width of an element*/
+    height: 20vh; /*sets the height of an element*/
+    margin-top: 5vh; /*pushes other elements upward*/
+    margin-left: 5vw; /*pushes other elements leftward*/
+    background-color: #AAA9A9; /*sets the background color of an element*/
+    display: inline-block; /*makes it so that an element falls into a single line with another*/
+}
+.discriptivesAndBoxplot{
+    width: 80vw; /*sets the width of an element*/
+}
+.contexttext{
+    margin-top: 1vh; /*pushes other elements upwards*/
+    height: 25vh; /*sets the height of an element*/
+    width: 40vw; /*sets the width of an element*/
+}
+.contexttext2{
+    margin-top: -5vh; /*pushes other elements upward*/
+    height: 25vh; /*sets the height of an element*/
+    width: 40vw; /*sets the width of an element*/
+}
+.contexttext4{
+    margin-top: 3vh; /*pushes other elements upward*/
+    height: 25vh; /*sets the height of an element*/
+    width: 40vw; /*sets the width of an element*/
+}
+.cPic:hover{
+    width: 33vw; /*sets the width of an element*/
+    aspect-ratio: 1/1; /*sets the width and height of an element into a ratio*/
+    transition: 0.5s; /*sets the time duration of change an element undergoes*/
+}
+.contactinfo{
+    background-color: #AAA9A9; /*sets the background color of an element*/
+}
+.contactlist{
+    text-align: left; /*aligns the text into the left side of the box*/
+}
+.schoollist{
+    text-align: left; /*aligns the text into the left side of the box*/
+}
