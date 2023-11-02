@@ -1,11 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dela+Gothic+One&family=Martian+Mono:wght@300&display=swap'); /*imports font style: Dela Gothic One*/
 @import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Lexend+Exa&display=swap'); /*imports font style: Lexend Exa*/
 *{
+
+    /*Sets base attributes for elements without classes*/
+
     margin: 0%; /*sets margin to all elements to 0*/
     color: #000000; /*Sets the font color of all texts to #000000*/
     text-decoration: none; /*Removes text decorations such as underlines to texts such as links*/
 }
 body{
+
+    /*Sets attributes to the body of the site (more specifically the background)*/
+
     margin: 0%; /*sets margin of the body to 0*/
     background-image: url(images/backgroundimage.jpg); /*sets the background of the body of each page to a picture*/
     background-repeat: no-repeat; /*makes it so that the background image doesn't repeat if it doesn't fill the space*/
@@ -14,6 +20,9 @@ body{
     object-fit: cover; /*sets the image to fill the space*/
 }
 .topbar{
+
+    /*Sets attributes to the topbar*/
+
     border: 1px solid black; /*displays a border around an element*/
     background-color: #040721; /*sets the background color of an element*/
     height: 12vh; /*sets the height of an element*/
@@ -21,22 +30,34 @@ body{
     position: fixed; /*fixes the position of an element on the screen; prevents the element from moving when scrolling*/
 }
 .logo{
+
+    /*Sets attributes for the div of the logo picture*/
+
     display: inline-block; /*makes it so that an element falls into a single line with another element*/
     border-radius: 50%; /*curves the border or edge of an element*/
     margin: 1vw; /*sets the margin of an element*/
    
 }
 .logoimage{
+
+    /*Controls the shape and size of the logo image*/
+
     border-radius: 50%; /*curves the border or edge of an element*/
     width: 8vh; /*sets the width of an element*/
     aspect-ratio: 1/1; /*sets the height and width of an element into a ratio*/
 }
 .pagename{
+
+    /*Controls the div of the page title (h1)*/
+
     display: inline-block; /*makes it so that an element falls into a single line with another element*/
     width: 92vw; /*sets the width of an element*/
     margin-top: 0vh; /*pushes other elements upward*/
 }
 .menubar{
+
+    /*Sets attributes to the menubar (Home Page) (the rounded grey thing)*/
+
     height: 10vh; /*sets the height of the element*/
     width: 50vw; /*sets the width of the element*/
     border-radius: 50%; /*curves the border or edge of the element*/
@@ -46,6 +67,9 @@ body{
     position: fixed; /*fixes the position of the element on the screen; prevents movement when scrolling*/
 }
 .introductionlink{
+
+    /*Sets attributes for the introduction box containing the introduction link (grey)*/
+
     height: 30vh; /*sets the height of the element*/
     width: 40vw; /*sets the width of the element*/
     padding-top: 5%; /*moves elements within the element inward (down)*/
@@ -55,6 +79,9 @@ body{
     position: fixed; /*fixes the position of the element on the screen; prevents movement when scrolling*/
 }
 .footer{
+
+    /*Sets attributes for the footer div*/
+
     width: 100vw; /*sets the width of the element*/
     background-color: #040721; /*sets the background color of the element*/
     margin-top: 88vh; /*pushes other elements upward*/
@@ -62,6 +89,9 @@ body{
     position: fixed; /*fixes the position of the element on the screen; prevents movement when scrolling*/
 }
 .buttonicons{
+
+    /*Sets attributes for the buttons on the menubar (Home Page)*/
+
     display: inline-block; /*makes it so that an element falls into a single line with another element*/
     background-color: #0057FF; /*sets the background color of the element*/
     width: 5vw; /*sets the width of the element*/
@@ -72,21 +102,30 @@ body{
     opacity: 60%; /*turns the element transparent*/
 }
 .copyright{
+
+    /*Controls the position of the copyright div*/
+
     float: left; /*moves the position of the element leftward*/
 }
 .bigcircle{
+
+    /*Sets attributes for the large circle button at the bottom right corner (Light Blue)*/
+
     display: inline-block; /*makes it so that an element falls into a single line with another element*/
     background-color: #0057FF; /*sets the background color of the element*/
     width: 9.5vw; /*sets the width of the element*/
     aspect-ratio: 1/1; /*sets the width and height of an element into a ratio*/
     border-radius: 50%; /*curves the edge of the element*/
-    margin-top: 80vh; /*pushes other elements upward*/
-    margin-left: 90vw; /*pushes other elements leftward*/
+    margin-top: -3%; /*pushes other elements upward*/
+    margin-left: 63%; /*pushes other elements leftward*/
     position: fixed; /*fixes the position of the element on the screen;prevents movement when scrolling*/
     padding-top: 2%; /*moves elements inside downward*/
     padding-left: 2%; /*moves elements insde rightward*/
 }
 .smallcircle{
+
+    /*Sets attributes for the smaller circle button that contains the symbol at the bottom right corner (Dark Blue)*/
+
     width: 5vw; /*sets the width of the element*/
     aspect-ratio: 1/1; /*sets the width and height of an element into a ratio*/
     background-color: #0041BF; /*sets the background color of the element*/
@@ -94,6 +133,9 @@ body{
     padding: 1%; /*moves inside elements towards the center*/
 }
 .abtUslinkpic{
+
+    /*Sets attributes for the symbol inside the bottom right button (About Us Page Link)*/
+
     width: 2vw; /*sets the width of an element*/
     aspect-ratio: 1/1.3; /*sets the width and height of an element into a ratio*/
     margin-right: 30%; /*pushes other elements rightward*/
@@ -101,11 +143,17 @@ body{
     margin-top: 20%; /*pushes other elements upward*/
 }
 .buttonpics{
+
+    /*Sets attributes for the symbols inside of the buttons of the menubar (Home Page)*/
+    
     width: 3.2vw; /*sets the width of the element*/
     aspect-ratio: 1/1; /*sets the width and height of an element into a ratio*/
     margin: 18%; /*pushes other elements outward*/
 }
 .menubar2{
+
+    /*Sets attributes for the "universal" menubar*/
+
     margin-left: 95vw; /*pushes other elements lefward*/
     width: 5vw; /*sets the width of an element*/
     height: 100vh; /*sets the height of an element*/
@@ -113,6 +161,9 @@ body{
     position: fixed; /*fixes the position of the element on the screen;prevents movement when scrolling*/
 }
 .buttonicons2{
+
+    /*Sets attributes for the buttons of the "universal" menubar*/
+
     width: 4vw; /*sets the width of an element*/
     aspect-ratio: 1/1; /*sets the width and height of an element into a ratio*/
     background-color: #0057FF; /*sets the background color of the element*/
@@ -121,6 +172,9 @@ body{
     border-radius: 50%; /*curves the edges or border of the element*/
 }
 .topbar2{
+
+    /*Sets attributes for the topbar of the other pages*/
+
     border: 1px solid black; /*displays a border around an element*/
     background-color: #040721; /*sets the background color of an element*/
     height: 12vh; /*sets the height of an element*/
@@ -128,6 +182,9 @@ body{
     margin-left: -95vw; /*pushes other elements leftward*/
 }
 .footer2{
+
+    /*Sets attributes for the footer of other pages*/
+
     width: 100vw; /*sets the width of the element*/
     background-color: #040721; /*sets the background color of the element*/
     height: 12vh; /*sets the height of an element*/
@@ -137,11 +194,17 @@ body{
     
 }
 .buttonpics2{
+
+    /*Sets attributes for the symbols on the bottons*/
+
     width: 2.5vw; /*sets the width of the element*/
     aspect-ratio: 1/1; /*sets the width and height of an element into a ratio*/
     margin: 20%; /*pushes other elements outward*/
 }
 .referencesblock{
+
+    /*sets attributes of the div for the references; grey rectangle*/
+
     background-color: #AAA9A9; /*sets the background color of an element*/
     height: 40vh; /*sets the height of an element*/
     width: 65vw; /*sets the width of an element*/
@@ -153,54 +216,76 @@ body{
     margin-bottom: 30vh; /*pushes other elements downward*/
 }
 .authordiv{
+
+    /*Sets attributes for the div that contains the pic of the contributors and their information; adjusts the space between each*/
+
     margin-top: 20vh; /*pushes other elements upward*/
     margin-left: 8vw; /*pushes other elements leftward*/
     margin-bottom: 40vh; /*pushes other downward*/
     float: left; /*positions the element leftward*/
 }
 .picauthor{
+
+    /*Sets the size for the div that contains the pics of the contributors*/
+
     width: 20vw; /*sets the width of an element*/
     aspect-ratio: 1/1; /*sets the width and height of an element into a ratio*/
 }
 li{
+
+    /*Sets the attributes for texts that are classified as lists without classes*/
+
     text-align: center; /*aligns the text into the center of the block*/
     font-family: 'Lexend Exa', sans-serif; /*sets the font style of an element*/
     font-size: 1vw; /*sets the font size of an element*/
     color: #000000; /*sets the text color of an element*/
 }
 h1{
+
+    /*Sets the attributes for texts that are classified as h1 (Page/Site Title)*/    
+
     font-family: 'Dela Gothic One', sans-serif; /*sets the font style of an element*/
     color: #ffffff; /*sets the text color of an element*/
     text-align: center; /*aligns the text into the center of the block*/
     font-size: 3vw; /*sets the font size of an element*/
 }
 .copyright{
+
+    /*Sets attributes for the div and the copyright text*/
+
     margin: 0.5%; /*pushes other elements outward*/
     font-family: 'Lexend Exa', sans-serif; /*sets the font style of the element*/
     color: #ffffff; /*sets the text color of an element*/
     font-size: 1vw; /*sets the font size of an element*/
 }
 h2{
+
+    /*Sets attributes for all h2 elements*/
+
     font-family: 'Lexend Exa', sans-serif; /*sets the font style of an element*/
     color: #000000; /*sets the text color of an element*/
     text-align: center; /*aligns the text into the center of the block*/
     font-size: 2vw; /*sets the font size of an element*/
 }
 .cv{
+
+    /*Sets attributes for the divs that conatain information about the authors*/
+
     width: 20vw; /*sets the width of an element*/
-    height: 80vh; /*sets the height of an element*/
-}
-.education{
-    background-color: #AAA9A9; /*sets the background color of an element*/
-}
-.cvhead{
+    height: 50vh; /*sets the height of an element*/
     background-color: #AAA9A9; /*sets the background color of an element*/
 }
 .buttonicons:hover{
+
+    /*Controls the changes that the menubar (Home Page) buttons will go through when hovered over*/
+
     opacity: 100%; /*turns the transparency of the element up or down*/
     transition: .4s; /*sets the time duration of change an element undergoes*/
 }
 .socialspics{
+
+    /*Sets the attributes for symbols for the footer buttons*/
+
     width: 2vw; /*sets the width of an element*/
     aspect-ratio: 1/1; /*sets the width and height of an element into a ratio*/
     margin-top: 1vh; /*pushes other elements upward*/
@@ -208,6 +293,9 @@ h2{
     
 }
 .socialsicons{
+
+    /*Sets attributes for the footer buttons*/
+
     background-color: #3E3838; /*sets the background color of an element*/
     width: 3vw; /*sets the width of an element*/
     aspect-ratio: 1/1; /*sets the width and height of an element into a ratio*/
@@ -218,6 +306,9 @@ h2{
     margin-right: 0.5vw; /*pushes other elements rightward*/
 }
 .buttonicons2:hover{
+
+    /*Controls the change the "universal" menubar buttons go through when hovered over"*/
+
     transition: 0.5s; /*sets the time duration of change an element undergoes*/
     width: 6vw; /*sets the width of an element*/
     margin-left: -5vw; /*pushes other elements leftward*/
@@ -225,41 +316,61 @@ h2{
     padding-top: 30%; /*pushes inside elements downward*/
 }
 .cvjelly{
+
+    /*Sets attributes for the information text of the about us page*/
+
     font-family: 'Lexend Exa', sans-serif; /*sets the font style of an element*/
     color: #000000; /*sets the text color of an element*/
-    background-color: #AAA9A9; /*sets the background color of an element*/
     word-break: break-all; /*breaks a word when it surpasses the width of the element*/
     font-size: 1vw; /*sets the font size of the element*/
 }
 .bigcircle:hover{
+
+    /*Controls the change that the button at the bottom right corner of the screen will go through when hovered over*/
+
     width: 15vw; /*sets the width of an element*/
-    margin-top: 70vh; /*pushes other elements upward*/
-    margin-left: 85vw; /*pushes other elements leftward*/
+    margin-top: -8%; /*pushes other elements upward*/
+    margin-left: 57%; /*pushes other elements leftward*/
     padding-top: 4%; /*pushes inside elements downward*/
     padding-left: 4%; /*pushes inside elements rightward*/
     transition: 0.5s; /*sets the time duration of the change an element undergoes*/
 }
 .context{
+
+    /*Sets attributes for the div that contains context text and picture*/
+
     display: inline-block; /*makes it so that an element falls into a single line with another*/
     margin-top: 20vh; /*pushes other elements upward*/
 }
 .contextjelly{
+
+    /*Sets attributues for the div that contains context text*/
+
     float: left; /*positions the element lefwards*/
     width: 40vw; /*sets the width of an element*/
     height: 20vh; /*set the height of an element*/
     margin-left: 5vw; /*pushes other elements leftward*/
 }
 .contextpic{
+
+    /*Sets Attributes for the div that contains the context Picture*/
+
     float: left; /*positions the element leftward*/
     width: 38vw; /*sets the width of an element*/
     aspect-ratio: 2/1; /*sets the width and height of an element into a ratio*/
     margin-left: 5vw; /*pushes other elements leftward*/
 }
 .supPic{
+
+    /*Sets attributes for the context picture*/
+
     width: 38vw; /*sets the width of an elememt*/
     aspect-ratio: 2/1; /*sets the width and height of an element into a ratio*/
 }
 .goal{
+
+    /*Sets attributes for the div that contains the goal text*/
+
     float: left; /*positions the element leftwards*/
     margin-top: 5vh; /*pushes other elements upwards*/
     margin-bottom: 40vh; /*pushes other elements downward*/
@@ -268,39 +379,63 @@ h2{
     height: 20vh; /*sets the height of an element*/
 }
 .statistic{
+
+    /*Sets attributes for the div that contains variable header (Quali-/Quanti-), Variable Info, and graphs*/
+
     display: inline-block; /*makes it so that an element falls into a single line with another*/
     margin-top: 20vh; /*pushes other elements upward*/
     margin-bottom: 30vh; /*pushes other elements downward*/
 }
 .statjelly{
+
+    /*Sets attributes for the div that contains variable info*/
+
     float: left; /*positions the element leftward*/
     height: 20vh; /*sets the height of an element*/
     width: 20vw; /*sets the width of an element*/
     margin-left: 5vw; /*pushes other elements leftward*/
 }
 .statpic{
+
+    /*Sets attributes for the div that contains the graphs*/
+
     float: left; /*positions the element leftward*/
     width: 25vw; /*sets the width of an element*/
     margin-left: 5vw; /*pushes other elements leftward*/
 }
 .statistic2{
+
+    /*Sets attributes for the div that contains variable header (Quali-/Quanti-), Variable Info, and graphs*/
+
     display: inline-block; /*makes it so that an element falls into a single line with another*/
     margin-bottom: 30vh; /*pushes other elements downward*/
 }
 .statistic3{
+
+    /*Sets attributes for the div that contains variable header (Quali-/Quanti-), Variable Info, and graphs*/
+
     display: inline-block; /*makes it so that an element falls into a single line with another*/
     margin-bottom: 60vh; /*pushes other elements downward*/
 }
 .sPic{
+
+    /*Sets attributes for the graph pics*/
+
     width: 25vw; /*sets the width of an element*/
     aspect-ratio: 3/2; /*sets the width and height of an element into a ratio*/
 }
 .conclusiondiv{
+
+    /*Sets attributes for the div that contains the conclusion text and picture*/
+
     display: inline-block; /*makes it so that an element falls into a single line with another*/
     margin-top: 20vh; /*pushes other elements upward*/
     margin-bottom: 40vh; /*pushes other elemets downward*/
 }
 .concjelly{
+
+    /*Sets attributes for the div that contains the conclusion text*/
+
     float: left; /*positions the element leftwards*/
     width: 40vw; /*sets the width of an element*/
     height: 100vh; /*sets the height of an element*/
@@ -308,34 +443,55 @@ h2{
     margin-left: 10vw; /*pushes other elements leftward*/
 }
 .concpic{
+
+    /*Sets attributes for the div that contains the conclusion pic*/
+
     float: left; /*positions the element leftward*/
     width: 30vw; /*sets the width of an element*/
     aspect-ratio: 1/1; /*sets the width and height of an element into a ratio*/
     margin-left: 5vw; /*pushes other elements leftward*/
 }
 .cPic{
+
+    /*Sets attributes for the conclusion pic*/
+
     width: 30vw; /*sets the width of an element*/
     aspect-ratio: 1/1; /*sets the width and height of an element into a ratio*/
 }
 .text{
+
+    /*Sets the attributes for most texts classified as <p>*/
+
     text-align: center; /*aligns the text into the center of the block*/
     font-family: 'Lexend Exa', sans-serif; /*sets the font style of the element*/
     background-color: #AAA9A9; /*sets the background color of the element*/
     font-size: 1vw; /*sets the font size of the element*/
 }
 h2{
+
+    /*Sets attributes for texts classified as h2*/
+
     background: #AAA9A9; /*sets the background color of the element*/
 }
 .supPic:hover{
+
+    /*Controls the changes that the context picture will go through when hovered over*/
+
     width: 42vw; /*sets the width of an element*/
     aspect-ratio: 2/1; /*sets the width and height of an element into a ratio*/
     transition: 0.5s; /*sets the time duration of a change that an element undergoes*/
 }
 .contextpic:hover{
+
+    /*Controls the changes that the div containing the context pic will go through when hovered over*/
+
     margin-left: 2vw;  /*pushes the element leftward*/
     transition: 0.5s; /*sets the time duration of change that an element undergoes*/
 }
 .quantiStatpic{
+
+    /*Sets attributes for the div that contains the Quantitative Variable Graphs*/
+
     float: left; /*positions the element leftward*/
     width: 20vw; /*sets the width of the element*/
     aspect-ratio: 3/2; /*sets the width and height of an element into a ratio*/
@@ -343,25 +499,36 @@ h2{
     margin-top: 5vh; /*pushes other elements upward*/
 }
 .discriptivesAndBoxplot{
+
+    /*Sets attributes for the div that contains the descriptives and boxplot*/
+
     margin-top: 50vh; /*pushes other elements upward*/
 }
-.quantisPic{
-    width: 40vw; /*sets the witdth of an element*/
-    aspect-ratio: 3/2; /*sets the width and height of an element into a ratio*/
-}
 .histogram{
+
+    /*Sets attributes for the histogram pic*/
+
     width: 50vw; /*sets the width of an element*/
     aspect-ratio: 2/.8; /*sets the width and height of an element into a ratio*/
 }
 .descriptive{
+
+    /*Sets attributes for the descriptive Statistics pic*/
+
     width: 20vw; /*sets the width of an element*/
     aspect-ratio: 1/1.5; /*sets the width and height of an element into a ratio*/
 }
 .boxplot{
+
+    /*Sets attributes for the boxplot pic*/
+
     width: 30vw; /*sets the width of an element*/
     aspect-ratio: 2/2; /*sets the width and height of an element into a ratio*/
 }
 .histodiv{
+
+    /*Sets attributes for the div containing the histogram*/
+
     float: left; /*positions the element leftward*/
     width: 50vw; /*sets the width of an element*/
     aspect-ratio: 5/2; /*sets the width and height of an element into a ratio*/
@@ -369,18 +536,27 @@ h2{
     margin-right: 5vw; /*pushes other elements rightward*/
 }
 .boxPdiv{
-    float: right; /*positions the element rightward*/
+
+    /*Sets attributes for the div containing the boxplot*/
+
+    float: left; /*positions the element rightward*/
     width: 30vw; /*sets the width of an element*/
     aspect-ratio: 3/2; /*sets the width and height of an element into a ratio*/
     margin-left: 5vw; /*pushes other elements leftward*/
     margin-top: 5vh; /*pushes other elements upward*/
 }
 .quantiheader{
+
+    /*Sets attributes for the div containing the the quantitative variables*/
+
     margin-left: 5vw; /*pushes other elements leftward*/
     margin-bottom: 5vh; /*pushes other elements downward*/
     width: 75vw; /*sets the width of an element*/
 }
 .histodiv2{
+
+    /*Sets the attributes for the div containing the 2nd histogram*/
+
     float: left; /*positions the element leftward*/
     width: 50vw; /*sets the width of an element*/
     aspect-ratio: 5/2; /*sets the width and height of an element into a ratio*/
@@ -388,6 +564,9 @@ h2{
     margin-right: 5vw; /*pushes other elements downward*/
 }
 .datapoints{
+
+    /*Sets attributes containing the link for the tables and data set*/
+
     float: left; /*positions the element leftward*/
     margin-top: 5vh; /*pushes other elements upward*/
     margin-bottom: 40vh; /*pushes other elements downward*/
@@ -397,65 +576,98 @@ h2{
     background-color: #AAA9A9; /*sets the background color of an element*/
 }
 .dataimage{
+
+    /*Sets attributes for the symbol of the tables link*/
+    
     width: 8vw; /*sets the width of an element*/
     margin-left: 5vw; /*pushes other elements leftward*/
 }
 .tableimage{
+
+    /*Sets attributes for the div containing the tables links symbol*/
+
     background-color: #AAA9A9; /*sets the background color of an element*/
 }
 .qualiiheader{
+
+    /*sets attributes for the div that contains the qualitative variable header*/
+
     margin-left: 5vw; /*pushes other elements leftward*/
     margin-bottom: 5vh; /*pushes other elements downward*/
     width: 80vw; /*sets the width of an element*/
 }
 .qualiiheader2{
+
+    /*Sets attributes for the div that contains the 2nd Qualitative variable header*/
+    
     margin-left: 5vw; /*pushes other elements leftward*/
     margin-bottom: 5vh; /*pushes other elements downward*/
     width: 50vw; /*sets the width of an element*/
 }
 .orderedlist{
+
+    /*Sets attributes for ordered lists*/
+
     background-color: #AAA9A9; /*sets the background color of an element*/
 }
 .goallist{
+
+    /*Sets attributes for the ordered list within the goal div*/
+
     text-align: left; /*aligns the text into the left side of the block*/
 }
 .analysis{
-    width: 75vw; /*sets the width of an element*/
+
+    /*Sets attributes for the div containing the interpretation of graphs*/
+
+    width: 60vw; /*sets the width of an element*/
     height: 20vh; /*sets the height of an element*/
     margin-top: 5vh; /*pushes other elements upward*/
     margin-left: 5vw; /*pushes other elements leftward*/
     background-color: #AAA9A9; /*sets the background color of an element*/
     display: inline-block; /*makes it so that an element falls into a single line with another*/
 }
-.discriptivesAndBoxplot{
-    width: 80vw; /*sets the width of an element*/
-}
-.contexttext{
+.conctext{
+
+    /*Sets attributes for the first and third paragraphs of the conclusion*/
+
     margin-top: 1vh; /*pushes other elements upwards*/
     height: 25vh; /*sets the height of an element*/
     width: 40vw; /*sets the width of an element*/
 }
-.contexttext2{
+.conctext2{
+
+    /*Sets attributes for the second paragraph*/
+
     margin-top: -5vh; /*pushes other elements upward*/
     height: 25vh; /*sets the height of an element*/
     width: 40vw; /*sets the width of an element*/
 }
-.contexttext4{
+.conctext4{
+
+    /*Sets attributes for the fourth paragraph*/
+
     margin-top: 3vh; /*pushes other elements upward*/
     height: 25vh; /*sets the height of an element*/
     width: 40vw; /*sets the width of an element*/
 }
 .cPic:hover{
+
+    /*Controls the changes the conclusion pic will go through when hovered over*/
+
     width: 33vw; /*sets the width of an element*/
     aspect-ratio: 1/1; /*sets the width and height of an element into a ratio*/
     transition: 0.5s; /*sets the time duration of change an element undergoes*/
 }
-.contactinfo{
-    background-color: #AAA9A9; /*sets the background color of an element*/
-}
 .contactlist{
+
+    /*Sets attributes for list of contacts*/
+
     text-align: left; /*aligns the text into the left side of the box*/
 }
 .schoollist{
+
+    /*Sets attributes for list of schools*/
+
     text-align: left; /*aligns the text into the left side of the box*/
 }
